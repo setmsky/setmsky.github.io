@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://setmsky.github.io/"/>
-  <updated>2016-08-16T04:10:06.758Z</updated>
+  <updated>2016-08-16T11:44:05.797Z</updated>
   <id>http://setmsky.github.io/</id>
   
   <author>
@@ -20,18 +20,16 @@
     <link href="http://setmsky.github.io/2016/08/14/home/"/>
     <id>http://setmsky.github.io/2016/08/14/home/</id>
     <published>2016-08-14T02:50:02.000Z</published>
-    <updated>2016-08-16T04:10:06.758Z</updated>
+    <updated>2016-08-16T11:44:05.797Z</updated>
     
     <content type="html"><![CDATA[<p>记录hexo使用过程遇到问题和技巧</p>
-<h1 id="1-hexo-修改生成-md-文件的头部"><a href="#1-hexo-修改生成-md-文件的头部" class="headerlink" title="1.hexo 修改生成.md 文件的头部"></a>1.hexo 修改生成.md 文件的头部</h1><pre><code>使用sublime全文搜索后，查询到 blog目录下面的node_modules\hexo\node_modules\hexo-cli\assets\scaffolds\ 文件，
-修改目录下面的.md文件，执行hexo n &quot;test&quot; 发现，修改的没有生效。
-于是继续查找搜索结果，发现blog的目录下面也有个一个scaffolds\文件夹，修改这个目录下面的.md文件，再次执行 hexo n &quot;test&quot;，生效
-</code></pre>]]></content>
+<h3 id="1-hexo-修改生成-md-文件的头部"><a href="#1-hexo-修改生成-md-文件的头部" class="headerlink" title="1.hexo 修改生成.md 文件的头部"></a>1.hexo 修改生成.md 文件的头部</h3><p> 使用sublime全文搜索后，查询到 blog目录下面的node_modules\hexo\node_modules\hexo-cli\assets\scaffolds\ 文件，<br> 修改目录下面的.md文件，执行 <code>bash hexo n &quot;test&quot;</code> 发现，修改的没有生效。<br>于是继续查找搜索结果，发现blog的目录下面也有个一个scaffolds\文件夹，修改这个目录下面的.md文件，再次执行<br>    <code>bash hexo n &quot;test&quot;</code>， 生效。</p>
+]]></content>
     
     <summary type="html">
     
       &lt;p&gt;记录hexo使用过程遇到问题和技巧&lt;/p&gt;
-&lt;h1 id=&quot;1-hexo-修改生成-md-文件的头部&quot;&gt;&lt;a href=&quot;#1-hexo-修改生成-md-文件的头部&quot; class=&quot;headerlink&quot; title=&quot;1.hexo 修改生成.md 文件的头部&quot;&gt;&lt;/a&gt;1
+&lt;h3 id=&quot;1-hexo-修改生成-md-文件的头部&quot;&gt;&lt;a href=&quot;#1-hexo-修改生成-md-文件的头部&quot; class=&quot;headerlink&quot; title=&quot;1.hexo 修改生成.md 文件的头部&quot;&gt;&lt;/a&gt;1
     
     </summary>
     
