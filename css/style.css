@@ -790,10 +790,10 @@ article .prev_next a.next::before {
 #sidebar .archive-list .archive-list-count:after {
   content: ')';
 }
-#sidebar .archive-list #visitor {
+#sidebar #visitor {
   margin-top: 10px;
 }
-#sidebar .archive-list #visitor img {
+#sidebar #visitor img {
   width: 260px;
   margin: 5px;
 }
