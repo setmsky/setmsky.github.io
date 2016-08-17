@@ -790,6 +790,13 @@ article .prev_next a.next::before {
 #sidebar .archive-list .archive-list-count:after {
   content: ')';
 }
+#sidebar .archive-list #visitor {
+  margin-top: 10px;
+}
+#sidebar .archive-list #visitor img {
+  width: 260px;
+  margin: 5px;
+}
 #footer {
   color: #999;
   margin-bottom: 50px;
