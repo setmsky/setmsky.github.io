@@ -336,11 +336,11 @@ article header .title {
   font-weight: normal;
 }
 article header .title a {
-  color: #444;
+  color: #258fb8;
 }
 article header .title a:hover {
   color: #258fb8;
-  text-decoration: none;
+  text-decoration: underline;
 }
 article .entry {
   text-align: justify;
@@ -527,7 +527,6 @@ article footer a:hover {
 article footer a:before {
   font: 1.1em FontAwesome;
   padding-right: 10px;
-  vertical-align: middle;
 }
 article footer a.more-link:before {
   content: '\f054';
@@ -627,6 +626,14 @@ article footer .addthis iframe {
 }
 .archive article .post-content {
   margin-bottom: 0;
+}
+.postDesc {
+  margin-top: 15px;
+  color: #999;
+  font-size: 0.9em;
+  line-height: 16px;
+  position: relative;
+  min-height: 16px;
 }
 #sidebar {
   width: 270px;
@@ -738,6 +745,21 @@ article footer .addthis iframe {
 }
 #sidebar #notice ul li a:hover {
   text-decoration: underline;
+}
+#sidebar .archive-list {
+  font-size: 0.9em;
+  padding: 15px 20px;
+}
+#sidebar .archive-list .archive-list-count {
+  margin-left: 8px;
+  font-size: 0.8em;
+  color: #999;
+}
+#sidebar .archive-list .archive-list-count:before {
+  content: '(';
+}
+#sidebar .archive-list .archive-list-count:after {
+  content: ')';
 }
 #footer {
   color: #999;
