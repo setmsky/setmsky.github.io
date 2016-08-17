@@ -509,7 +509,7 @@ article .entry .pullquote {
 }
 article footer {
   margin-top: 15px;
-  padding-top: 10px;
+  padding-top: 15px;
   border-top: 1px solid #ddd;
   color: #999;
   font-size: 0.9em;
@@ -560,6 +560,35 @@ article footer .addthis {
 }
 article footer .addthis iframe {
   margin-top: 0;
+}
+article .prev_next {
+  margin: 1em 0;
+  clear: both;
+  overflow: hidden;
+}
+article .prev_next a {
+  display: block;
+  text-align: center;
+  padding: 0.4em 0;
+  color: #1ba1e2;
+  -webkit-transition: background 0.45s color 0.45s;
+  -moz-transition: background 0.45s color 0.45s;
+  -o-transition: background 0.45s color 0.45s;
+  -ms-transition: background 0.45s color 0.45s;
+  transition: background 0.45s color 0.45s;
+}
+article .prev_next a:hover {
+  color: #f00;
+  padding: 0.4em 0;
+  text-decoration: none;
+}
+article .prev_next a.prev::before {
+  content: "上一篇：";
+  padding-right: 0.5em;
+}
+article .prev_next a.next::before {
+  content: "下一篇：";
+  padding-right: 0.5em;
 }
 #comment {
   padding: 20px;
